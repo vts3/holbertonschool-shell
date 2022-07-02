@@ -1,2 +1,2 @@
 #!/bin/bash
-rsync reference=olleh hello
+chmod --reference=olleh hello
