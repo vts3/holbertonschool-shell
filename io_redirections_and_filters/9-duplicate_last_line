@@ -1,2 +1,2 @@
 #!/bin/bash
-tail -nq 1 iacta >> iacta
+tail -qn 1 iacta >> iacta
