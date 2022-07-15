@@ -1,8 +1,0 @@
-#!/bin/env bash
-# looping the phrase
-
-while :
-	do
-		echo "To infinity and beyond"
-	sleep 2
-done
