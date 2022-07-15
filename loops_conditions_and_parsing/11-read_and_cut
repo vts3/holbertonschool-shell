@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# read from passwd
+
+file="/etc/passwd"
+
+while read -r LRED
+	do
+		echo "$LRED" | cut -d ':' -f1,3,6
+	done < "$file"
